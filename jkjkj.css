@@ -1,0 +1,37 @@
+.ManiBox {
+    background-color: yellow;
+    height: 120px;
+    display: flex;/ / главному диву всегда ставим flex;
+    /*
+       flex-direction: row; // выставить горизонтально
+       flex-direction: row-reverse; // выставить горизонтально наоборот
+       flex-direction: column; // выставить вертикально
+       flex-direction: column-reverse; // выставить вертикально наоборот
+     */
+  flex-direction: row;
+    /*
+    justify-content: start; // выстраивать сллева
+    justify-content: end; // выстраивать справа
+    justify-content: center; // выстраивать по центру
+    justify-content: space-between; // растянуть по всему ряду
+    justify-content: space-around; // растянуть по всему ряду и отступить от краев
+     */
+   justify-content: space-around;
+    /*
+    align-items: flex-start; // выстраивать по верху главного дива
+    align-items: flex-end; // выстраивать по низу главного дива
+    align-items: center; // выстраивать по центру главного дива
+     */
+
+   align-items: center;
+    flex-wrap: wrap;
+    /*
+    flex-wrap : wrap; // если не будут помещаться по ширине => переноси на новую строку
+     */
+
+}
+.box{
+    background-color: red;
+    width: 300px;
+    height: 100px;
+}
